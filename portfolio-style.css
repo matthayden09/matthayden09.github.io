@@ -1,0 +1,9 @@
+body {
+    background-color: lightgray;
+}
+
+
+.navbar-brand {
+    background-color: skyblue;
+    padding: 5px;
+}
