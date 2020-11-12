@@ -2,7 +2,6 @@ body {
     background-color: lightgray;
 }
 
-
 .navbar-brand {
     background-color: tomato;
     padding: 5px;
@@ -16,7 +15,7 @@ body {
 
 h1 {
     color: tomato;
-    padding-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .col-md {
@@ -24,10 +23,8 @@ h1 {
 
 }
 
-
 img {
     width: 200px;
-    padding-bottom: 20px;
     float: left;
     margin-right: 20px;
     
