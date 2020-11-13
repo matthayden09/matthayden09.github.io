@@ -7,7 +7,7 @@ body {
     padding: 5px;
 }
 
-.container {
+.container-fluid {
     padding: 50px;
     margin-top: 20px;
     background-color: white;
@@ -16,6 +16,9 @@ body {
 h1 {
     color: skyblue;
     margin-bottom: 30px;
+}
+.col-md-6 {
+    margin-top: 50px;
 }
 
 footer {
