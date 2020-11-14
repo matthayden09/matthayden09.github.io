@@ -17,15 +17,16 @@ h1 {
     color: skyblue;
     margin-bottom: 30px;
 }
+/* image placeholders  */
 .col-md-6 {
     margin-top: 50px;
 }
 
-footer {
+/* footer {
     color: navy;
     text-align: center;
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 3.5rem;
-}
+} */
