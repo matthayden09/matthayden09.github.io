@@ -5,6 +5,8 @@ body {
 .navbar-brand {
     background-color: gold;
     padding: 5px;
+    border-radius: 50%;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .container-fluid {
