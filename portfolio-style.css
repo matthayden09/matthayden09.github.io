@@ -11,8 +11,8 @@ body {
 
 .container-fluid {
     padding: 50px;
-    margin-top: 20px;
     background-color: white;
+    margin: auto;
 }
 
 h1 {
@@ -22,6 +22,14 @@ h1 {
 /* image placeholders  */
 .col-md-6 {
     margin-top: 50px;
+}
+
+.project{
+    display: block;
+    width: 225px;
+    height: 225px;
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 /* footer {
