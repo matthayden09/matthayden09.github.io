@@ -1,42 +1,28 @@
-body {
-    background-color: lightgray;
+.container-fluid {
+    text-align: center;
+    background-color: azure;
 }
 
-.navbar-brand {
-    background-color: rgb(104, 211, 104);
-    padding: 5px;
-    border-radius: 50%;
+.welcome-header {
+    text-align: center;
+}
+
+.portfolio-header {
+    text-align: center;
+}
+
+.main-links {
+    text-align: center;
+}
+
+.project-deploy{
+    width: 225px;
+    height: 225px;
+    font-size: 32px;
+    margin-bottom: 1rem;
     font-family: 'Courier New', Courier, monospace;
 }
 
-
-.container-fluid {
-    padding: 50px;
-    background-color: white;
-    margin: auto;
+.github-btn {
+    margin-bottom: 1rem;
 }
-
-h1 {
-    color: rgb(104, 211, 104);
-    margin-bottom: 30px;
-}
-
-.intro {
-    line-height: 1.5;
-    font-size: 20px;
-}
-
-img {
-    width: 200px;
-    float: left;
-    margin-right: 20px;
-}
-
-/* footer {
-    color: black;
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 3.5rem;
-} */
