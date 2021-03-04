@@ -13,7 +13,7 @@ body {
     margin-bottom: 3rem;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 375px) {
     .letter {
         font-size: .75em;
     }
