@@ -2,7 +2,7 @@ body {
     background-color: rgb(144, 160, 142);
 }
 
-.container-fluid {
+.container-xxl {
     text-align: center;
 }
 
@@ -11,6 +11,9 @@ body {
     text-align: center;
     margin-top: 3rem;
     margin-bottom: 3rem;
+    @media screen {
+        min-width: none
+    }
 }
 
 /* start anime */
@@ -82,6 +85,11 @@ body {
 
 .line-break {
     margin-bottom: 5rem;
+}
+
+.project-content {
+    max-width: 60%;
+    margin: auto;
 }
 
 .project-deploy{
