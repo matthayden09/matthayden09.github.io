@@ -13,8 +13,11 @@ body {
     text-align: center;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    @media screen {
-        max-width: 576px;
+}
+
+@media only screen and (max-width: 768px) {
+    .letter {
+        font-size: .75em;
     }
 }
 
@@ -56,8 +59,12 @@ body {
 /* start nav  */
 .nav-links {
     text-align: center;
-    @media screen {
-        max-width: 576px;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-btn {
+        width: 50%;
+        margin-bottom: 1rem;
     }
 }
 
