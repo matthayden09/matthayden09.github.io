@@ -1,3 +1,5 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
 body {
     background-color: rgb(144, 160, 142);
 }
@@ -11,9 +13,7 @@ body {
     text-align: center;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    @media screen {
-        min-width: none
-    }
+    @media (min-width: 576px) { ... }
 }
 
 /* start anime */
