@@ -7,6 +7,8 @@
     <title>Matt Hayden</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" class="style">
 </head>
 
@@ -14,33 +16,41 @@
     <div class="container-fluid">
         <!-- welcome header -->
         <header class="welcome-header">
-            <h1 class="welcome-text">WELCOME</h1>
+            <h1 class="ml1">
+                <span class="text-wrapper">
+                    <!-- <span class="line line1"></span> -->
+                    <span class="letters">WELCOME</span>
+                    <!-- <span class="line line2"></span> -->
+                </span>
+            </h1>
         </header>
         <!-- links -->
-        <div class="main-links">
+        <div class="nav-links">
             <a href="assets/Resume.pdf">
-                <button>RESUME</button>
+                <button class="nav-btn">RESUME</button>
             </a>
             <a href="https://github.com/matthayden09">
-                <button>GitHub</button>
+                <button class="nav-btn">GitHub</button>
             </a>
             <a href="https://www.linkedin.com/in/matthew-hayden-a1aa38147/">
-                <button>LinkedIn</button>
+                <button class="nav-btn">LinkedIn</button>
             </a>
             <a href="contact.html">
-                <button>CONTACT</button>
+                <button class="nav-btn">CONTACT</button>
             </a>
         </div>
         <!-- portfolio -->
         <header class="portfolio-header">
             <h1 class="portfolio-text">PORTFOLIO</h1>
         </header>
+        <hr class="line-break">
         <div class="row">
             <div class="col-md-6">
                 <a href="https://mklakhan.github.io/movies-on-the-rocks/">
                     <button class="project-deploy">Movies on the Rocks</button>
                 </a>
                 <br>
+                <h6 class="repo-text">GitHub Repo</h6>
                 <a href="https://github.com/mklakhan/movies-on-the-rocks">
                     <button type="button" class="btn btn-secondary github-btn">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -57,6 +67,7 @@
                     <button class="project-deploy">Work Day Scheduler</button>
                 </a>
                 <br>
+                <h6 class="repo-text">GitHub Repo</h6>
                 <a href="https://github.com/matthayden09/work_day_scheduler">
                     <button type="button" class="btn btn-secondary github-btn">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -75,6 +86,7 @@
                     <button class="project-deploy">Password Generator</button>
                 </a>
                 <br>
+                <h6 class="repo-text">GitHub Repo</h6>
                 <a href="https://github.com/matthayden09/password_generator">
                     <button type="button" class="btn btn-secondary github-btn">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -91,6 +103,7 @@
                     <button class="project-deploy">Eat-Da-Burger!</button>
                 </a>
                 <br>
+                <h6 class="repo-text">GitHub Repo</h6>
                 <a href="https://github.com/matthayden09/burger">
                     <button type="button" class="btn btn-secondary github-btn">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -109,6 +122,7 @@
                     <button class="project-deploy">The Culture Blog</button>
                 </a>
                 <br>
+                <h6 class="repo-text">GitHub Repo</h6>
                 <a href="https://github.com/matthayden09/project_2">
                     <button type="button" class="btn btn-secondary github-btn">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -137,6 +151,9 @@
         </div>
     </div>
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="script.js"></script>
 
 </body>
 
