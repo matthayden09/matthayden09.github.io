@@ -53,14 +53,18 @@ body {
 
 .nav-btn {
     font-size: 20px;
+    background-color: white;
     padding: 5px;
-    margin: 5px;
-    border-radius: 1rem;
+    border-radius: .5rem;
     font-family: 'Tenor Sans', sans-serif;
 }
 
 .nav-btn:hover {
     background-color: rgb(184, 248, 184);
+}
+
+a {
+    margin: 10px;
 }
 
 .portfolio-header {
@@ -77,6 +81,7 @@ body {
 }
 
 .project-deploy{
+    background-color: white;
     border-radius: 2rem;
     width: 225px;
     height: 225px;
