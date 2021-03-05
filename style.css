@@ -14,9 +14,9 @@ body {
 }
 
 @media only screen and (max-width: 375px) {
-    .letter {
+    .letters {
         font-size: .75em;
-        background-color: red;
+        /* background-color: red; */
     }
 }
 
@@ -28,7 +28,7 @@ body {
     font-family: 'Tenor Sans', sans-serif;
 }
   
-.ml1 .letter {
+.ml1 .letters {
     display: inline-block;
     line-height: 1em;
 }
