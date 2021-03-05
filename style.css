@@ -6,7 +6,7 @@ body {
     text-align: center;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 768px) {
     .container-xxl {
         text-align: center;
         justify-content: center;
@@ -67,7 +67,7 @@ body {
     text-align: center;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 768px) {
     .nav-btn {
         width: 50%;
         margin-bottom: 1rem;
