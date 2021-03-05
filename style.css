@@ -6,6 +6,14 @@ body {
     text-align: center;
 }
 
+@media only screen and (max-width: 375px) {
+    .container-xxl {
+        text-align: center;
+        justify-content: center;
+        /* margin: auto; */
+    }
+}
+
 /* ** HOME **  */
 .welcome-header {
     text-align: center;
@@ -16,7 +24,6 @@ body {
 @media only screen and (max-width: 375px) {
     .letters {
         font-size: .75em;
-        /* background-color: red; */
     }
 }
 
