@@ -9,11 +9,11 @@ body {
 /* @media only screen and (max-width: 768px) {
     .container-xxl {
         text-align: center;
-        justify-content: center; */
-        /* width: 100%; */
-        /* margin: auto; */
-    /* } */
-/* } */
+        justify-content: center;
+        width: 100%;
+        margin: auto;
+    }
+} */
 
 /* ** HOME **  */
 .welcome-header {
@@ -22,11 +22,11 @@ body {
     margin-bottom: 3rem;
 }
 
-/* @media only screen and (max-width: 375px) {
+@media only screen and (max-width: 375px) {
     .letters {
         font-size: .75em;
     }
-} */
+}
 
 /* start anime */
 .ml1 {
@@ -68,12 +68,12 @@ body {
     text-align: center;
 }
 
-/* @media only screen and (max-width: 375px) {
+@media only screen and (max-width: 375px) {
     .nav-btn {
         width: 50%;
         margin-bottom: 1rem;
     }
-} */
+}
 
 .nav-btn {
     font-size: 20px;
@@ -88,7 +88,7 @@ body {
 }
 
 .nav-anchor {
-    margin: 10px;
+    margin-left: 10px;
 }
 /* end nav  */
 
@@ -103,8 +103,10 @@ body {
 }
 
 .project-content {
-    max-width: 65%;
-    margin: auto;
+    /* background-color: rgb(210, 210, 210); */
+    max-width: 90%;
+    /* margin-left: 2rem; */
+    /* margin-right: 2rem; */
 }
 
 .project-title {
@@ -128,7 +130,6 @@ body {
     /* display: block; */
     height: 35rem;
     padding: 15px;
-    margin: 1rem;
     border-radius: 1rem;
 }
 
