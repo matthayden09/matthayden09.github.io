@@ -18,7 +18,7 @@ body {
     margin-bottom: 3rem;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 428px) {
     .letters {
         font-size: .75em;
     }
@@ -64,7 +64,7 @@ body {
     text-align: center;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 428px) {
     .nav-btn {
         width: 50%;
         margin-bottom: 1rem;
@@ -186,9 +186,12 @@ body {
     font-size: 2rem;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 428px) {
     .info {
         font-size: 1.5em;
+    }
+    .contact-card {
+        width: 80%;
     }
 }
 
