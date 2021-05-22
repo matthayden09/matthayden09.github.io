@@ -19,14 +19,18 @@ body {
     margin-bottom: 2rem;
 }
 
-@media only screen and (max-width: 428px) {
-    .letters {
-        font-size: .75em;
-    }
+.welcome-text {
+    color: whitesmoke;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 3rem;
 }
 
+/* @media only screen and (max-width: 428px) {
+   
+} */
+
 /* Welcome text */
-.line-1{
+/* .line-1{
     position: relative;
     top: 50%;
     width: 24em;
@@ -39,10 +43,10 @@ body {
     white-space: nowrap;
     overflow: hidden;
     transform: translateY(-50%);    
-}
+} */
 
 /* Animation */
-.anim-typewriter{
+/* .anim-typewriter{
   animation: typewriter 4s steps(44) 1s 1 normal both,
     blinkTextCursor 500ms steps(44) infinite normal;
 }
@@ -53,7 +57,7 @@ body {
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
-}
+} */
 
 /* start nav  */
 .nav-links {
