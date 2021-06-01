@@ -116,7 +116,7 @@ body {
 
 .project-description {
     font-family: 'Tenor Sans', sans-serif;
-    height: 100px;
+    height: 200px;
     overflow: scroll;
     margin-bottom: 2rem;
 }
