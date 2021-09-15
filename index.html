@@ -1,248 +1,201 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matt Hayden</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" class="style">
+    <title>Matthew Hayden</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+    <link id="theme-style" rel="stylesheet" type="text/css" href="">
 </head>
 
 <body>
-    <div class="container-xxl">
-        <!-- welcome header -->
-        <header class="welcome-header">
-            <h1 class="welcome-text">Welcome to Matthew Hayden's Portfolio</h1>
-        </header>
-
-        <!-- nav -->
-        <div class="nav-links">
-            <a class="nav-anchor" href="assets/Resume.pdf">
-                <button class="btn nav-btn">RESUME</button>
-            </a>
-            <a class="nav-anchor" href="https://github.com/matthayden09">
-                <button class="btn nav-btn">GITHUB</button>
-            </a>
-            <a class="nav-anchor" href="https://www.linkedin.com/in/matthew-hayden-a1aa38147/">
-                <button class="btn nav-btn">LINKEDIN</button>
-            </a>
-            <a class="nav-anchor" href="contact.html">
-                <button class="btn nav-btn">CONTACT</button>
-            </a>
-        </div>
-
-        <!-- portfolio -->
-        <!-- <header class="portfolio-header">
-            <h1 class="portfolio-head-text">PORTFOLIO</h1>
-            <h2 class="portfolio-head-text">Matthew Hayden</h2>
-        </header> -->
-        <hr class="line-break">
-        <div class="container project-content">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="container card project-card">
-                        <h3 class="project-title">Crypto University</h3>
-                        <p class="project-description">Crypto University is an application that allows users to
-                            educate
-                            themselves on cryptocurrencies. We provide educational content that is important to the
-                            understanding of cryptocurrencies as well as some basic information on how to safely
-                            engage
-                            in buying and storing the currencies. We also provide a quick price checker to allow the
-                            user to check on the current prices of cryptocurrencies as well.</p>
-                        <a href="https://sheltered-garden-64832.herokuapp.com/">
-                            <button class="btn project-deploy">Click to visit the app</button>
-                        </a>
-                        <br>
-                        <h6 class="page-text">GitHub Repo</h6>
-                        <a href="https://github.com/Rconat/crypto-university">
-                            <button type="button" class="btn btn-secondary github-btn">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-github" viewBox="0 0 16 16">
-                                    <path
-                                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z">
-                                    </path>
-                                </svg>
-                            </button>
-                        </a>
-                    </div>
-                    <br>
-                </div>
-                <div class="col-md-6">
-                    <div class="container card project-card">
-                        <h3 class="project-title">The Culture Blog</h3>
-                        <div class="project-description">
-                            <p>This project is a blog and CMS system about different
-                                cultural
-                                topics
-                                that allows authors to delete their own posts, and allows for non-author users to like
-                                posts
-                                and
-                                add comments that are then appended to a comment box. It also allows for users to chat
-                                with
-                                each
-                                other live This project was created using Node, Express, Handlebars, Passport, and
-                                socket.io
-                            </p>
+    <section class="s1">
+        <div class="main-container">
+            <div class="greeting-wrapper">
+                <h1>Hi, I'm Matt Hayden</h1>
+            </div>
+            <div class="intro-wrapper">
+                <div class="nav-wrapper">
+                    <a href="index.html">
+                        <div class="dots-wrapper">
+                            <div id="dot-1" class="browser-dot"></div>
+                            <div id="dot-2" class="browser-dot"></div>
+                            <div id="dot-3" class="browser-dot"></div>
                         </div>
-                        <a href="https://gentle-cliffs-54160.herokuapp.com/">
-                            <button class="btn project-deploy">Click to visit the app</button>
-                        </a>
-                        <br>
-                        <h6 class="page-text">GitHub Repo</h6>
-                        <a href="https://github.com/matthayden09/project_2">
-                            <button type="button" class="btn btn-secondary github-btn">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-github" viewBox="0 0 16 16">
-                                    <path
-                                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z">
-                                    </path>
-                                </svg>
-                            </button>
-                        </a>
-                    </div>
+                    </a>
+                    <ul id="navigation">
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
                 </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="container card project-card">
-                        <h3 class="project-title">Movies on the Rocks</h3>
-                        <p class="project-description">A web application that shakes up your movie night by recommending
-                            beverages based on the flicks you're watching, so you feel part of all the action!</p>
-                        <a href="https://mklakhan.github.io/movies-on-the-rocks/">
-                            <button class="btn project-deploy">Click to visit the app</button>
-                        </a>
-                        <br>
-                        <h6 class="page-text">GitHub Repo</h6>
-                        <a href="https://github.com/mklakhan/movies-on-the-rocks">
-                            <button type="button" class="btn btn-secondary github-btn">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-github" viewBox="0 0 16 16">
-                                    <path
-                                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z">
-                                    </path>
-                                </svg>
-                            </button>
-                        </a>
+                <div class="left-column">
+                    <img id="profile_pic" src="images/profile_pic.jpg">
+                    <h5 style="text-align: center;line-height: 0;">Personalize Theme</h5>
+                    <div id="theme-options-wrapper">
+                        <div data-mode="light" id="light-mode" class="theme-dot"></div>
+                        <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+                        <div data-mode="green" id="green-mode" class="theme-dot"></div>
+                        <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
                     </div>
-                    <br>
+                    <p id="settings-note">*Theme settings will be saved<br>for your next vist</p>
                 </div>
-                <div class="col-md-6">
-                    <div class="container card project-card">
-                        <h3 class="project-title">Work Day Scheduler</h3>
-                        <p class="project-description">This is a daily calendar application that will save notes into
-                            local
-                            storage in order to help plan out your workday.</p>
-                        <a href="https://matthayden09.github.io/work_day_scheduler/">
-                            <button class="btn project-deploy">Click to visit the app</button>
-                        </a>
-                        <br>
-                        <h6 class="page-text">GitHub Repo</h6>
-                        <a href="https://github.com/matthayden09/work_day_scheduler">
-                            <button type="button" class="btn btn-secondary github-btn">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-github" viewBox="0 0 16 16">
-                                    <path
-                                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z">
-                                    </path>
-                                </svg>
-                            </button>
-                        </a>
-                    </div>
-                    <br>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="container card project-card">
-                        <h3 class="project-title">Password Generator</h3>
-                        <p class="project-description">This is a password generator that will output a random
-                            combination of
-                            characters.</p>
-                        <a href="https://matthayden09.github.io/password_generator/">
-                            <button class="btn project-deploy">Click to visit the app</button>
-                        </a>
-                        <br>
-                        <h6 class="page-text">GitHub Repo</h6>
-                        <a href="https://github.com/matthayden09/password_generator">
-                            <button type="button" class="btn btn-secondary github-btn">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-github" viewBox="0 0 16 16">
-                                    <path
-                                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z">
-                                    </path>
-                                </svg>
-                            </button>
-                        </a>
-                    </div>
-                    <br>
-                </div>
-                <div class="col-md-6">
-                    <div class="container card project-card">
-                        <h3 class="project-title">Eat-Da-Burger!</h3>
-                        <p class="project-description">This is an application that utilizes an express server and a
-                            MySQL database. The user can add names of hamburgers they like, which can then be devoured
-                            and relocated to a different list.</p>
-                        <a href="https://stormy-hollows-37273.herokuapp.com/">
-                            <button class="btn project-deploy">Click to visit the app</button>
-                        </a>
-                        <br>
-                        <h6 class="page-text">GitHub Repo</h6>
-                        <a href="https://github.com/matthayden09/burger">
-                            <button type="button" class="btn btn-secondary github-btn">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-github" viewBox="0 0 16 16">
-                                    <path
-                                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z">
-                                    </path>
-                                </svg>
-                            </button>
-                        </a>
-                    </div>
-                    <br>
-                </div>
-            </div>
-            <!-- <div class="row">
-                <div class="col-md-6">
-                    <div class="container card project-card">
-                        <h3 class="project-title">Budget Tracker</h3>
-                        <div class="project-description">
-                            <p>This is an application that allows a user to input deposits and withdraws in order to
-                                keep track of their budget while also maintaining functionallity offline. Data will be
-                                stored in the connected database.
+
+                <div class="right-column">
+                    <div id="preview-shadow">
+                        <div id="preview">
+                            <div id="corner-tl" class="corner"></div>
+                            <div id="corner-tr" class="corner"></div>
+                            <h3>What I Do</h3>
+                            <p>I'm a freelance web developer actively searching for a full-time employment opportunity.
                             </p>
+                            <div id="corner-br" class="corner"></div>
+                            <div id="corner-bl" class="corner"></div>
                         </div>
-                        <a href="https://mysterious-tor-18675.herokuapp.com/">
-                            <button class="btn project-deploy">Click to visit the app</button>
-                        </a>
-                        <br>
-                        <h6 class="page-text">GitHub Repo</h6>
-                        <a href="https://github.com/matthayden09/budget_tracker">
-                            <button type="button" class="btn btn-secondary github-btn">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-github" viewBox="0 0 16 16">
-                                    <path
-                                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z">
-                                    </path>
-                                </svg>
-                            </button>
-                        </a>
                     </div>
                 </div>
-                <br>
-            </div> -->
+            </div>
         </div>
-    </div>
+    </section>
 
+    <section class="s2">
+        <div class="main-container">
+            <div class="about-wrapper">
+                <div class="about-me">
+                    <h4>More about me</h4>
+                    <p>After eight years working in Special Education, I felt it was time to pursue a new career path.
+                    </p>
+                    <p>I am actively taking on contracts and continuing to learn all that can in the world of web
+                        development.</p>
+                    <hr>
+                    <h4>TOP EXPERTISE</h4>
+                    <p>My email: matthayden09@gmail.com</p>
+                    <p>Fullstack Developer <a target="_blank" href="assets/resume.pdf">Download Resume</a></p>
+                    <div id="skills">
+                        <ul>
+                            <li>HTML/CSS</li>
+                            <li>JavaScript</li>
+                            <li>Vue</li>
+                            <li>React</li>
+                            <li>PHP/Laravel</li>
+                        </ul>
+                        <ul>
+                            <li>MySQL</li>
+                            <li>MongoDB</li>
+                            <li>Python</li>
+                            <li>Node</li>
+                            <li>Heroku</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <img id="social_img" src="images/social.jpg">
+                    <h3>Find me on LinkedIn & GitHub</h3>
+                    <a class="social-link" target="_blank"
+                    href="https://www.linkedin.com/in/matthew-hayden-a1aa38147/">LinkedIn</a>
+                    <br>
+                    <a class="social-link" target="_blank" href="https://github.com/matthayden09">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section class="s1">
+        <div class="main-container">
+            <h3 style="text-align: center;">Some of my past projects</h3>
+            <div class="post-wrapper">
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/CU.jpg">
+                        <div class="post-preview">
+                            <h6 class="post-title">Crypto University</h6>
+                            <p class="post-intro">An educational app focused on crypto currency</p>
+                            <a href="https://sheltered-garden-64832.herokuapp.com/login">Check it out</a>
+                            <div class="repo">
+                                <a href="https://github.com/Rconat/crypto-university">
+                                    <button type="button" class="btn btn-secondary github-btn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z">
+                                            </path>
+                                        </svg>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/MoviesontheRocks.jpg">
+                        <div class="post-preview">
+                            <h6 class="post-title">Movies on the Rocks</h6>
+                            <p class="post-intro">A beverage suggesting app to shake up your movie night!
+                            </p>
+                            <a href="https://mklakhan.github.io/movies-on-the-rocks/">Check it out</a>
+                            <div class="repo">
+                                <a href="https://github.com/mklakhan/movies-on-the-rocks">
+                                    <button type="button" class="btn btn-secondary github-btn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z">
+                                            </path>
+                                        </svg>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/burger.jpg">
+                        <div class="post-preview">
+                            <h6 class="post-title">Eat Da Burger</h6>
+                            <p class="post-intro">A silly hamburger app</p>
+                            <a href="https://stormy-hollows-37273.herokuapp.com/">Check it out</a>
+                            <div class="repo">
+                                <a href="https://github.com/matthayden09/burger">
+                                    <button type="button" class="btn btn-secondary github-btn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z">
+                                            </path>
+                                        </svg>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-    <script src="script.js"></script>
+    <section class="s2">
+        <div class="main-container">
+            <a href=""></a>
+            <h3 style="text-align: center;">Get In Touch</h3>
+            <form id="contact-form">
+                <a name="contact"></a>
+                <label>Name</label>
+                <input class="input-field" type="text" name="name">
+                <label>Subject</label>
+                <input class="input-field" type="text" name="subject">
+                <label>Email</label>
+                <input class="input-field" type="text" name="email">
+                <label>Message</label>
+                <textarea class="input-field" name="message"></textarea>
+                <input id="submit-btn" type="submit" value="Send">
+            </form>
+        </div>
+    </section>
 
+    <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
